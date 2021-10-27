@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: scd2
+    database: EDW
+    schema: SCD2
+    tags: ['scd2']
+    tables: 
+      - name: CUSTOMER1
+      - name: CUSTOMER2
+      - name: CUSTOMER3
